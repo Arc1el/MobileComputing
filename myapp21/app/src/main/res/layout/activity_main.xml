@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        app:layout_constraintBottom_toBottomOf="@+id/et_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_name" />
+
+    <TextView
+        android:id="@+id/tv_num_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인원"
+        app:layout_constraintBottom_toBottomOf="@+id/et_num_people"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_num_people" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/tv_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_num_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/tv_num_people"
+        app:layout_constraintTop_toBottomOf="@+id/et_name" />
+
+    <Button
+        android:id="@+id/btn_init"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="초기화"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_num_people" />
+
+    <Button
+        android:id="@+id/btn_input"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="입력"
+        app:layout_constraintStart_toEndOf="@+id/btn_init"
+        app:layout_constraintTop_toTopOf="@+id/btn_init" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="조회"
+        app:layout_constraintStart_toEndOf="@+id/btn_input"
+        app:layout_constraintTop_toBottomOf="@+id/et_num_people" />
+
+    <EditText
+        android:id="@+id/et_name_result"
+        android:layout_width="188dp"
+        android:layout_height="464dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et_num_result"
+        android:layout_width="210dp"
+        android:layout_height="464dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et_name_result" />
+
+    <Button
+        android:id="@+id/btn_mod"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="수정"
+        app:layout_constraintStart_toEndOf="@+id/btn_check"
+        app:layout_constraintTop_toTopOf="@+id/btn_check" />
+
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="삭제"
+        app:layout_constraintStart_toEndOf="@+id/btn_mod"
+        app:layout_constraintTop_toTopOf="@+id/btn_mod" />
+</androidx.constraintlayout.widget.ConstraintLayout>

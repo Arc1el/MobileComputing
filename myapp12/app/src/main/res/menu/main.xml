@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_cat"
+        android:orderInCategory="90"
+        android:title="CAT"
+        />
+
+    <item
+        android:id="@+id/item_dog"
+        android:orderInCategory="120"
+        android:title="DOG"
+        />
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="AA"/>
+        <item android:title="BB"
+            android:checked="true"/>
+        <item android:title="CC"/>
+
+    </group>
+
+    <item android:title="DD">
+        <menu>
+            <item android:title="EE"/>
+            <item android:title="FF"/>
+        </menu>
+    </item>
+</menu>

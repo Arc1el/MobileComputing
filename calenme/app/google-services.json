@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "493359381163",
+    "project_id": "mooch-a2da0",
+    "storage_bucket": "mooch-a2da0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493359381163:android:d2a523a3943dd7112695ee",
+        "android_client_info": {
+          "package_name": "com.arc1el.calenme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493359381163-dit1uducbe6jm4bqovfm7ak14fptucsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arc1el.calenme",
+            "certificate_hash": "1c24c2a7502e13093a64086906e4a5d76b8d4d84"
+          }
+        },
+        {
+          "client_id": "493359381163-43f4pltu7mqe3ai28sjmdr6n1jqktn3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz5q1RvSl7y6B35BrbWldqqvBjOX3XrQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493359381163-43f4pltu7mqe3ai28sjmdr6n1jqktn3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

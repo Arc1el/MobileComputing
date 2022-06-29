@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/check_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="num1"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <CheckBox
+        android:id="@+id/check_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="num2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <RadioGroup
+        android:id="@+id/rgroup_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Man" />
+
+        <RadioButton
+            android:id="@+id/radio_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Woman" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView_1"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:scaleType="fitXY"
+        />
+
+</LinearLayout>
